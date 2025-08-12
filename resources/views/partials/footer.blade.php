@@ -2,7 +2,7 @@
     <div class="row row-cols-1 row-cols-md-3 pt-5">
     <div class="col mb-5">
         <a
-        href=""
+        href="{{route('index')}}"
         class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0"
         style="font-size: 20px; line-height: 30px"
         >
@@ -55,7 +55,7 @@
         </div>
 
         <div class="mb-3">
-            <h4><i class="fa fa-phone-alt text-primary mr-2"></i><span class="text-white">Telepone</span></h4>
+            <h4><i class="fa fa-phone-alt text-primary mr-2"></i><span class="text-white">Telepon</span></h4>
             <p class="ml-4">081295546763</p>
         </div>
     </div>
@@ -76,7 +76,7 @@
             ><i class="fa fa-angle-right mr-2"></i>Kegiatan</a
         >
         <a class="text-white mb-2" href="{{route('news')}}"
-            ><i class="fa fa-angle-right mr-2"></i>Berita</a
+            ><i class="fa fa-angle-right mr-2"></i>Artikel</a
         >
         </div>
     </div>

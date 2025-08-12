@@ -1,7 +1,7 @@
 <div class="container-fluid bg-light position-relative shadow">
     <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
     <a
-        href=""
+        href="{{route('index')}}"
         class="navbar-brand font-weight-bold text-secondary"
         style="font-size: 20px"
     >
@@ -31,11 +31,11 @@
                     href="#"
                     class="nav-link dropdown-toggle"
                     data-toggle="dropdown"
-                    >Kegiatan & Berita </a
+                    >Kegiatan & Artikel </a
                     >
                     <div class="dropdown-menu rounded-0 m-0">
                     <a href="{{route('activity')}}" class="dropdown-item">Kegiatan </a>
-                    <a href="{{route('news')}}" class="dropdown-item">Berita</a>
+                    <a href="{{route('news')}}" class="dropdown-item">Artikel</a>
                     </div>
                 </div>
             </div>
